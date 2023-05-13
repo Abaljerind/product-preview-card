@@ -19,3 +19,15 @@ p.card-subtitle {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
 }
+
+p.discount {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+p.discount small.price {
+  text-decoration: line-through;
+  font-family: serif;
+  font-size: 0.45em;
+  margin-left: 20px;
+}
