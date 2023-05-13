@@ -49,6 +49,7 @@ button.carts {
   background-color: hsl(158, 36%, 37%);
   color: white;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 button.carts:hover {
@@ -57,6 +58,11 @@ button.carts:hover {
 }
 
 button.carts:focus {
+  background-color: hsl(158, 36%, 26%);
+  color: white;
+}
+
+button.carts:active {
   background-color: hsl(158, 36%, 26%);
   color: white;
 }
