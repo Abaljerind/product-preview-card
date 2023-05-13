@@ -51,7 +51,12 @@ button.carts {
   font-size: 14px;
 }
 
-button.carts:is(:hover, :focus) {
+button.carts:hover {
+  background-color: hsl(158, 36%, 26%);
+  color: white;
+}
+
+button.carts:focus {
   background-color: hsl(158, 36%, 26%);
   color: white;
 }
