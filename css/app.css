@@ -31,3 +31,12 @@ p.discount small.price {
   font-size: 0.45em;
   margin-left: 20px;
 }
+
+button.carts {
+  padding: 12px 53px;
+  margin: 10px auto;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
