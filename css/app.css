@@ -7,3 +7,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
+h5.card-title {
+  font-size: 2.25em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
