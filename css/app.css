@@ -33,10 +33,15 @@ p small.price {
 }
 
 button.carts {
-  padding: 12px 53px;
-  margin: 10px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: hsl(158, 36%, 37%);
   color: white;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
+}
+
+button.carts:is(:hover, :focus) {
+  background-color: hsl(158, 36%, 26%);
+  color: white;
 }
