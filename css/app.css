@@ -25,10 +25,10 @@ p.discount {
   color: hsl(158, 36%, 37%);
 }
 
-p.discount small.price {
+p small.price {
   text-decoration: line-through;
   font-family: serif;
-  font-size: 0.45em;
+  font-size: 1em;
   margin-left: 20px;
 }
 
