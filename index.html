@@ -40,8 +40,13 @@
       <!-- card -->
       <div class="card mb-3 rounded-4" style="max-width: 660px">
         <div class="row g-0">
-          <div class="col-md-6">
-            <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start-4" alt="Image of Gabrielle Essence Eau De Parfum A floral" />
+          <div class="col-md-6 col-sm-2">
+            <!-- <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start-4" alt="Image of Gabrielle Essence Eau De Parfum A floral" /> -->
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/image-product-desktop.jpg" />
+              <source media="(min-width: 375px)" srcset="images/image-product-mobile.jpg" />
+              <img src="images/image-product-desktop.jpg" class="img-fluid" alt="Image of Gabrielle Essence Eau De Parfum A floral" />
+            </picture>
           </div>
           <div class="col-md-6 p-3">
             <div class="card-body">
